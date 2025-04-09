@@ -1,4 +1,44 @@
 services:
+  wyoming-ovos-tts-sam:
+    image: jarbasai/ovos-wyoming-tts-sam:latest
+    container_name: wyoming-ovos-tts-sam
+    restart: unless-stopped
+    volumes:
+      - ${CONFIG_BASE_DIR}/mycroft.conf:/etc/mycroft/mycroft.conf
+    ports:
+      - 10605:8080
+  wyoming-ovos-tts-nos:
+    image: jarbasai/ovos-wyoming-tts-nos:latest
+    container_name: wyoming-ovos-tts-nos
+    restart: unless-stopped
+    volumes:
+      - ${CONFIG_BASE_DIR}/mycroft.conf:/etc/mycroft/mycroft.conf
+    ports:
+      - 10604:8080
+  wyoming-ovos-tts-mimic:
+    image: jarbasai/ovos-wyoming-tts-mimic:latest
+    container_name: wyoming-ovos-tts-mimic
+    restart: unless-stopped
+    volumes:
+      - ${CONFIG_BASE_DIR}/mycroft.conf:/etc/mycroft/mycroft.conf
+    ports:
+      - 10603:8080
+  wyoming-ovos-tts-google-tx:
+    image: jarbasai/ovos-wyoming-tts-google-tx:latest
+    container_name: wyoming-ovos-tts-google-tx
+    restart: unless-stopped
+    volumes:
+      - ${CONFIG_BASE_DIR}/mycroft.conf:/etc/mycroft/mycroft.conf
+    ports:
+      - 10602:8080
+  wyoming-ovos-tts-matxa:
+    image: jarbasai/ovos-wyoming-tts-matxa:latest
+    container_name: wyoming-ovos-tts-matxa
+    restart: unless-stopped
+    volumes:
+      - ${CONFIG_BASE_DIR}/mycroft.conf:/etc/mycroft/mycroft.conf
+    ports:
+      - 10601:8080
   wyoming-ovos-tts-servers:
     build:
       context: ./tts-servers
