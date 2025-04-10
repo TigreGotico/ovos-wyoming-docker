@@ -1,0 +1,3 @@
+ovos-workshop
+ovos-bus-client>=1.3.4
+ovos-persona-server>=0.3.2
