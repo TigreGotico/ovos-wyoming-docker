@@ -12,6 +12,15 @@ adjust to your liking
 
 ```
 services:
+  ovos-assist-agent:
+    image: ovos-persona/ovos-core
+    restart: always
+    container_name: ovos_core_persona
+    # network_mode: host in order to be able to connect to the bus
+    network_mode: host
+    #ports:
+    #  - 8337:8337
+    
   wyoming-ovos-tts-servers:
     build:
       context: ./tts-servers

@@ -1,0 +1,12 @@
+{
+  "name": "Open Voice OS",
+  "solvers": [
+    "ovos-solver-bus-plugin",
+    "ovos-solver-failure-plugin"
+  ],
+  "ovos-solver-bus-plugin": {
+    "autoconnect": true,
+    "host": "127.0.0.1",
+    "port": 8181
+  }
+}
