@@ -2,9 +2,11 @@
 
 A collection of Docker images for running [OVOS](https://openvoiceos.org) services using the [Wyoming Protocol](https://github.com/Rhasspy/wyoming).
 
-> Easily spin up TTS, STT, and Wake Word services using Docker and Docker Compose.
+> Easily spin up Assist, TTS, STT, and Wake Word services using Docker and Docker Compose.
 
 ![OVOS Wyoming](https://github.com/user-attachments/assets/cc5e69ae-7549-45a9-a48f-94d57d07129c)
+
+![image](https://github.com/user-attachments/assets/95505ed0-0d57-4464-b0d5-68c2d86596f0)
 
 ---
 
