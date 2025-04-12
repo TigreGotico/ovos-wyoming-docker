@@ -40,6 +40,10 @@ use the Ollama integration to add the OVOS agent
 
 ![image](https://github.com/user-attachments/assets/9f6ed44a-8303-49ee-ae9b-29604bfb38f6)
 
+point your wyoming satellites to OVOS
+
+![image](https://github.com/user-attachments/assets/e71a9a4b-8a47-418c-9ab8-529264c8ad3b)
+
 ---
 
 ## 🧩 Compose Setup
