@@ -6,6 +6,7 @@ A collection of Docker images for running [OVOS](https://openvoiceos.org) servic
 
 ![OVOS Wyoming](https://github.com/user-attachments/assets/cc5e69ae-7549-45a9-a48f-94d57d07129c)
 
+
 ---
 
 ## 🚀 Getting Started
@@ -23,6 +24,21 @@ Or use Docker Compose to build:
 ```bash
 docker compose build
 ```
+
+### Add to Home Assistant
+
+use the wyoming integration to add TTS/STT/WakeWords
+
+![image](https://github.com/user-attachments/assets/ad44dbea-1cae-4dbd-9a9d-0bdb9688f98f)
+
+![image](https://github.com/user-attachments/assets/4c8ebdca-cc80-4747-ab3a-9a4b23d70343)
+
+
+use the Ollama integration to add the OVOS agent
+
+![image](https://github.com/user-attachments/assets/18e28f47-7acf-4f36-a121-4451cec66a38)
+
+![image](https://github.com/user-attachments/assets/9f6ed44a-8303-49ee-ae9b-29604bfb38f6)
 
 ---
 
