@@ -6,9 +6,6 @@ A collection of Docker images for running [OVOS](https://openvoiceos.org) servic
 
 ![OVOS Wyoming](https://github.com/user-attachments/assets/cc5e69ae-7549-45a9-a48f-94d57d07129c)
 
-
-> ⚠️ **Private Repository:** This project is not yet publicly available. Please do not share this repository outside the early access group.
-
 ---
 
 ## 🚀 Getting Started
